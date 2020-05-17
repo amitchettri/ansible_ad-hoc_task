@@ -68,7 +68,7 @@ ansible myserverhost -a uptime
 as you could have already figured out **-m** is the module and **-a** should contain the command it should run which goes as an argument to command and shell.
 
 
-**NOTE:** The difference between **command** and **shell** command is that variables like **$HOME** and operations like **<, >, |, ;** and **&** will not work with the **command** module. If you want to run any command say you using **<, >, |,** etc you actually want the **shell** module instead.
+**NOTE:** The difference between **command** and **shell** module is that variables like **$HOME** and operations like **<, >, |, ;** and **&** will not work with the **command** module. If you want to run any command which uses **<, >, |,** etc then **shell** module has to be used instead.
 
 **3:  How to check the free memory or memory usage of  hosts using ansible ad hoc command**
 
