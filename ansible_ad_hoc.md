@@ -328,6 +328,7 @@ $ ansible myserverhost -s -m cron -a "name='daily-cron-all-servers' special_time
 ```
  
 **17: File Transfer**
+
 The ansible ad-hoc command below is used to copy a file from a source to a destination for a group of hosts (myserverhost) defined in the inventory file. After you enter the password, the output with “change” parameter will be “true”, which means the file has been copied to the destination.
 ```
 $ ansible node1 -m copy -a 'src=/home/ac/test.yml dest=/home/ac/Desktop/ owner=root mode=0644' -u root --become -K
