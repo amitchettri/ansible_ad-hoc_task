@@ -113,8 +113,7 @@ someuser:x:1000:1000:someuser:/home/someuser:/bin/bash
 host02 | SUCCESS | rc=0 >>
 someuser:x:1000:1000:someuser:/home/someuser:/bin/bash
 
-here
-
+here,
 -b is the option for become and by default it will become root user
 
 –K is to tell ansible to ask for SUDO password
