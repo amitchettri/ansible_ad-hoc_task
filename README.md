@@ -5,7 +5,7 @@ Get started with Ansible AD HOC commands which are mostly used. Click [ansible_a
 
 All are welcome to contibute more.
 
-(text_list_bullets.ico)<h2 id="login-optional-fields"><span>► </span>Optional Fields</h2>
+<h2 ![section](text_list_bullets.ico) id="login-optional-fields"><span>► </span>Optional Fields</h2>
 
 :
 :
